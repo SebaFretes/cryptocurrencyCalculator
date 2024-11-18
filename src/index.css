@@ -1,0 +1,46 @@
+:root {
+  --white: #FFF;
+  --primary: #bbaa1a;
+  --black: #182339;
+}
+
+html {
+  font-size: 62.5%;
+  /*permite trabajar con REM al mismo tamaño que px*/
+}
+
+body {
+  background-image: url('/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Outfit", serif;
+}
+
+.container {
+  max-width: 60rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.app-title {
+  font-size: 3.8rem;
+  margin-top: 5rem;
+  color: var(--white);
+  line-height: .8;
+}
+
+.app-title span {
+  color: var(--primary);
+  font-size: 4.4rem;
+  display: block;
+}
+
+.content {
+  background-color: var(--white);
+  margin-top: 5rem;
+  padding: 6rem 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
