@@ -1,6 +1,6 @@
 export const CryptoSearchForm = () => {
   return (
-    <form>
+    <form className="form">
         <div className="field">
             <label htmlFor="currency">Moneda:</label>
             <select name="currency" id="currency">
