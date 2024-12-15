@@ -64,3 +64,18 @@ body {
   border-radius: 1rem;
   font-size: 1.8rem;
 }
+
+.form [type="submit"] {
+  background-color: var(--primary);
+  color: var(--black);
+  border: none;
+  padding: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.form [type="submit"]:hover {
+  background-color: #a1930c;
+}
